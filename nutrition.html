@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Rebecca Joseph -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Forward Fitness Club</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<script src="script.js" async></script>
+
+	<div id="container">
+	
+	<!-- Use the header area for the website name or logo-->
+	<header>
+		<a href="index.html"><img src="images/ffc_logo.png" alt="Forward Fitness Club Logo"></a>
+	</header>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website-->
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="class.html">Classes</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	
+	<!-- Use the main area to add the content of the webpage-->
+	<main id="nuFormMain">
+	
+		<h2>Ready to get started?</h2>
+		<h2>Complete the form below to get customized nutrition plan.</h2>
+		
+		<!-- https://www.javascripttutorial.net/javascript-dom/javascript-form/ -->
+		<form name="nuform" id="nuform" action="mailto:arshsharma25@gmail.com"> <!--Start form -->
+			<label for="fName">Name:</label>
+			<input type="text" id="Name" name="fName">
+			<label for="age">Age:</label>
+			<input type="number" id="age" name="age">
+
+			<label for="weight">Weight:</label>
+			<input type="number" id="weight" name="weight">
+
+			<label for="gender">Gender:</label>
+			<input type="text" id="gender" name="gender">
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"><!--CHECK THIS-->
+			
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone">
+			
+			<input type="submit" id="submit" value="Submit" class="btn">
+			<input type="reset" id="reset" value="Reset Form" class="btn">
+		</form>
+	</main>
+	
+	<!-- Use the footer area to add webpage footer content-->
+	<footer>
+	
+		<div id="copyright">
+			<p>&copy; Copyright 2022. All Rights Reserved.<br>
+			<a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
+		</div>
+	</footer>
+	
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
